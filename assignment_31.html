@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML Page</title>
+
+</head>
+
+<body>
+    <!-- Que:1->Add a "tooltip" to the paragraph below with the text "Python Web Development in
+    Hindi".-->
+    <!-- To add a tooltip we will have to add title attribute -->
+    <p title="Python Web Development in Hindi.">
+        Python Web Development in Hindi.
+    </p>
+
+    <form action="/register" method="get" accept-charset="utf-8">
+        <!--Que:2->In the form below, add an input field with the type "button" and the value "OK". -->
+        <input type="button" name="btn" id="btn" value="OK" />
+        <!-- Que:3->Inside a form tag add two radio buttons both the name "programming_language"-->
+        <br />
+        Python:
+        <input type="radio" name="programming_language" value="python">
+        JavaScript:
+        <input type="radio" name="programming_language" value="JavaScript">
+        <br>
+        <br>
+        <!-- Que:4->Inside a form tag, add an empty drop down list with the name “food_menu”. -->
+        <select name="food_menu">
+            <option></option>
+            <option></option>
+        </select>
+        <!--Que:5->Inside a form tag, add a text area with the name "note" -->
+        <br>
+        <br>
+        <textarea name="note" placeholder="Enter text here:"></textarea>
+        <!-- Que:6->Inside a form tag, add a submit button with the value "Submit Form".-->
+        <br>
+        <br>
+        <input type="submit" value="Submit Form" />
+        <!-- Que:7-> Inside a form tag disable the input field below.-->
+        <br>
+        <br>
+        <input type="text" disabled placeholder="Don't Write here:">
+        <!--Que:8->Restrict the maximum number of characters allowed in the input field to 10. -->
+        <br>
+        <br>
+        <input type="text" name="txt" maxlength="10" placeholder="Enter your contact number:">
+        <!--Que:9->Inside form tag, add an input field that accepts only .png files. -->
+        <br>
+        <br>
+        <!-- with the help of accept attribute in input we can accept only image files -->
+        <input type="file" name="img" accept="image/*" />
+
+    </form>
+    <!-- Que:10 -> Add a table row with two table headers. The two table headers should have the
+        value "Index" and "Topic". -->
+    <table>
+        <thead>
+            <tr>
+                <th>Index</th>
+                <th>Topic</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Python</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>JavaScript</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Rust</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Matlab</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>
