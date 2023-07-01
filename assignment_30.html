@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> HTML Assignment</title>
+</head>
+
+<body>
+    <!-- Que:1-> Comment the second paragraph element of the following HTML document? -->
+    <p>HTML Tutorial</p>
+    <!-- <p>Python Tutorial</p> -->
+    <p>PHP Tutorial</p>
+    <!-- Que:2->Represent your residential address on HTML Document. -->
+    <address>
+        email:someone@gmail.com
+        <br>
+        contact:9878542852
+    </address>
+    <!-- Que:3->Convert your HTML document into music player. -->
+    <p>Music player:</p>
+    <audio src="../music/Vaa-Vaathi-MassTamilan.dev.mp3" controls></audio>
+    <!-- Que:4->Convert your HTML document into video player. -->
+    <p>This is Video Player:</p>
+    <video src="../movies/Waltair Veerayya Theatrical Trailer Hindi Megastar Chiranjeevi.mp4" controls></video>
+    <!-- Que:5->Embed Python swap program in html document -->
+    <br>
+    <code>
+        a=10
+        b=5
+        <br>
+        print(a,b)
+        <br>
+        a,b = b,a
+        <br>
+        print(a,b)
+    </code>
+    <!-- Que:6->Create a paragraph summarizer, where you can toggle between hide and view
+option. -->
+    <!-- with the help of details tag we can include create a toggle view. -->
+    <details>
+        <summary>Show Data</summary>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis praesentium ratione dolor officia,
+            voluptatum, perspiciatis iusto veritatis rerum nostrum ullam repudiandae.</p>
+    </details>
+    <br>
+    <!-- Que:7->Embed Youtube video URL on html document. -->
+    <p> YouTube video to show the content in our webpage.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Lv1mzW_gbNk" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    <br>
+    <br>
+    <!-- Que:8 ->Create a registration form for a hackathon, (Include form validation). -->
+    <form action="" method="get">
+        <label for="uname">Name: <span>*</span></label>
+        <!-- get the user name -->
+        <input type="text" name="uname" id="uname" required>
+        <br>
+        <br>
+        <label for="email">Email: <span>*</span></label>
+        <!-- get the user email -->
+        <input type="email" name="email" id="email" required>
+        <br>
+        <br>
+        <label for="contact-num">Contact Number <span>*</span></label>
+        <!-- to add the contact number of user. -->
+        <input type="tel" name="contactNumber" id="contact-num" maxlength="10" required>
+        <br>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+    <!-- Que:9->Suppose you just wrote your own book, and you want, that every user who visits your
+        website should be able to download your book locally on his/her computer. Create a
+        single page website, which lets users to download your book. -->
+    <p>This is <strong>Python e-book.</strong></p>
+    <button><a href="../assignment_pdf/Assignment-31_HTML (2).pdf"  download="HTML-assignment">Download Python book</a></button>
+    <!-- Que:10-> Convert your HTML document into Phone Call Application.-->
+    <p>To send a mail someone@gmail.com</p>
+    <p> <a href="mailto:someone@gmail.com">Send Mail</a></p>
+    <!-- Que:11-> Convert your HTML document into Electronic Mail Application.-->
+    <p>To contact any person with the help of contact number.</p>
+    <p> <a href="tel:+91123456789">Call +91 123 456 7809</a></p>
+</body>
+
+</html>
